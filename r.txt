@@ -1,0 +1,183 @@
+;===== Used by Game =====
+[SCREEN]
+;Mode   : 0=FullScreen ,1=Window ,Other=Window
+;Type   : 0=Wide ,1=Normal ,Other=Normal
+;Size
+;  Normal :  800x600 ,1024x768 ,1280x1024 ,1600x1200
+;  Wide   : 1280x800 ,1440x900 ,1680x1050 ,1920x1200
+Mode=0
+Type=0
+SizeX=1280
+SizeY=720
+
+[PAD]
+;[ay-] means [axisY-]
+;[rx+] means [rotationX+]
+;[s0+] means [slider0+]
+;[1]   means [button1]
+;------------------------------------
+; These functions can allocate an analog device and a digital button. 
+Foward=ay-
+Back=ay+
+LeftTurn=ax-
+RightTurn=ax+
+CameraUp=ry-
+CameraDown=ry+
+CameraLeft=rx-
+CameraRight=rx+
+;------------------------------------
+; These functions can allocate only a digital button.
+Action=3
+Run=1
+Map=8
+ReadyKnife=5
+ReadyWeapon=6
+CommandAshley=2
+Status=4
+Option=7
+
+[KEYBOARD]
+;[DIK_W] means [keyboard W]
+Foward=DIK_W
+Back=DIK_S
+LeftTurn=DIK_A
+RightTurn=DIK_D
+CameraUp=DIK_UP
+CameraDown=DIK_DOWN
+CameraLeft=DIK_LEFT
+CameraRight=DIK_RIGHT
+Action=DIK_RETURN
+Run=DIK_RCONTROL
+Map=DIK_M
+ReadyKnife=DIK_LSHIFT
+ReadyWeapon=DIK_RSHIFT
+CommandAshley=DIK_F
+Status=DIK_I
+Option=DIK_ESCAPE
+
+;===== Used by SetupTool =====
+[PAD0]
+PadName=Microsoft:XBOX 360 For Windows (Controller)
+Foward=ay-
+Back=ay+
+LeftTurn=ax-
+RightTurn=ax+
+CameraUp=ry-
+CameraDown=ry+
+CameraLeft=rx-
+CameraRight=rx+
+Action=3
+Run=1
+Map=8
+ReadyKnife=5
+ReadyWeapon=6
+CommandAshley=2
+Status=4
+Option=7
+
+[PAD1]
+PadName=ELECOM:JC-U1012F JC-UD12RD JC-UB12GN
+Foward=ay-
+Back=ay+
+LeftTurn=ax-
+RightTurn=ax+
+CameraUp=rz-
+CameraDown=rz+
+CameraLeft=az-
+CameraRight=az+
+Action=1
+Run=3
+Map=12
+ReadyKnife=5
+ReadyWeapon=6
+CommandAshley=4
+Status=2
+Option=11
+
+[PAD2]
+PadName=SANWA SUPPLY:JY-P61U Series MICRO GRIP3
+Foward=ay-
+Back=ay+
+LeftTurn=ax-
+RightTurn=ax+
+CameraUp=rz-
+CameraDown=rz+
+CameraLeft=az-
+CameraRight=az+
+Action=4
+Run=2
+Map=10
+ReadyKnife=5
+ReadyWeapon=7
+CommandAshley=1
+Status=3
+Option=9
+
+[PAD3]
+PadName=SANWA SUPPLY:JY-P62U Series ONLINE GRIP
+Foward=ay-
+Back=ay+
+LeftTurn=ax-
+RightTurn=ax+
+CameraUp=s0-
+CameraDown=s0+
+CameraLeft=rz-
+CameraRight=rz+
+Action=4
+Run=1
+Map=15
+ReadyKnife=7
+ReadyWeapon=9
+CommandAshley=2
+Status=5
+Option=13
+
+[PAD4]
+PadName=SANWA SUPPLY:JY-P58U Series MICRO GRIP Pro
+Foward=ay-
+Back=ay+
+LeftTurn=ax-
+RightTurn=ax+
+CameraUp=rz-
+CameraDown=rz+
+CameraLeft=az-
+CameraRight=az+
+Action=2
+Run=1
+Map=10
+ReadyKnife=5
+ReadyWeapon=7
+CommandAshley=3
+Status=4
+Option=9
+
+[PAD5]
+PadName=SIGMA:USB Vibration Joystick
+Foward=ay-
+Back=ay+
+LeftTurn=ax-
+RightTurn=ax+
+CameraUp=rz-
+CameraDown=rz+
+CameraLeft=az-
+CameraRight=az+
+Action=4
+Run=3
+Map=10
+ReadyKnife=7
+ReadyWeapon=8
+CommandAshley=2
+Status=1
+Option=9
+[MouseAim]
+X=100
+Y=100
+Scr=100
+MouseAction=0
+MouseCancel=3
+MouseReady=1
+MouseCamera=2
+UltraMode=0
+DelayLoad=0
+Joy=10000.0
+ForceLock=0

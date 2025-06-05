@@ -1,0 +1,73 @@
+/* #tittle1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+}
+
+#tittle2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 500px;
+    color: white;
+
+}
+
+body {
+    background-color: black;
+}
+
+#Mislistas {
+   color: white; 
+   text-align: center;
+   font-size: 40px;
+   padding: 50px;
+}
+
+#Mibutton {
+    font-size: 100px;
+    text-align: center;
+    padding: 100px;
+} */
+
+
+
+
+
+
+
+
+body {
+    background-color: black;
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+#tittle1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+}
+
+#tittle2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px; 
+    color: white;
+}
+
+#Mislistas {
+   color: white; 
+   text-align: center;
+   font-size: 40px;
+   padding: 25px; 
+}
+
+#Mibutton {
+    font-size: 15px; 
+    text-align: center;
+    padding: 10px 30px;
+    margin: 100 auto; 
+    display: block; 
+}
